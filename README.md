@@ -3,7 +3,10 @@
 
 🌐 **Portfolio:** [haroldtran.vercel.app](https://haroldtran.vercel.app)<br>
 💬 **Ask me about:** React Native, Flutter<br>
-📫 **Contact:** [phattran1201@gmail.com](mailto:phattran1201@gmail)<br>
+📧 **Contact:** [phattran1201@gmail.com](mailto:phattran1201@gmail)<br>
+📧 **Linkedin:** [Harold](linkedin.com/in/phattran1201)<br>
+📫 **Telegram:** [Harold](https://t.me/phattran1201)<br>
+
 
 ---
 
