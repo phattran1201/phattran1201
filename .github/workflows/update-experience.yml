@@ -14,19 +14,14 @@ jobs:
         run: |
           # Thiết lập năm bắt đầu (Dựa trên số 8 và 5 bạn đang có vào năm 2026)
           START_YEAR_DEV=2018
-          START_YEAR_UIUX=2021
           CURRENT_YEAR=$(date +%Y)
           
           # Tính toán số năm
           YEARS_DEV=$((CURRENT_YEAR - START_YEAR_DEV))
-          YEARS_UIUX=$((CURRENT_YEAR - START_YEAR_UIUX))
           
           # Sử dụng sed để tìm và thay thế nội dung giữa các thẻ
           # Cập nhật số năm Dev
           sed -i "s/\(<!-- EXP_DEV_START -->\).*\(<!-- EXP_DEV_END -->\)/\1$YEARS_DEV\2/" README.md
-          
-          # Cập nhật số năm UI/UX
-          sed -i "s/\(<!-- EXP_UIUX_START -->\).*\(<!-- EXP_UIUX_END -->\)/\1$YEARS_UIUX\2/" README.md
 
       - name: Commit and Push changes
         run: |
